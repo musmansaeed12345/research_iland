@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Iland</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div>
+            <img style="width: 70px; height: 70px; border-radius: 50%; border-style: dashed;" src="./images/DALL·E 2025-03-01 15.12.15 - A unique and modern logo representing research work and freelancing with different elements. The logo features an open book with digital code flowing .webp"/>
+            <!-- <p style="margin-top: 0px; margin-bottom: 0px; font-family: 'Courier New', Courier, monospace;">Research Iland</p> -->
+        </div>
+        <div class="logo" style="color: rgb(255, 255, 255); font-family: 'Courier New', Courier, monospace;">Research Iland</div>
+        <button class="nav-toggle" onclick="toggleMenu()">☰</button>
+        <nav class="nav-menu">
+            <a href="#" onclick="showSection('home')"><i class="fa fa-home"></i> Home</a>
+            <a href="#" onclick="showSection('portfolio')"><i class="fa fa-briefcase"></i> Portfolio</a>
+            <a href="#" onclick="showSection('services')"><i class="fa fa-th"></i> Services</a>
+            <a href="#" onclick="showSection('contact')"><i class="fa fa-envelope"></i> About Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="content-section">
+            <div class="hero">
+                <h1>Freelancing & Research Writing</h1>
+                <p>High-quality research, writing, and analysis to power your success.</p>
+                <div class="features">
+                    <p>✅ 100% Original Content</p>
+                    <p>✅ Affordable Pricing</p>
+                    <p>✅ Fast Delivery</p>
+                    <p>✅ Covering All Subjects</p>
+                </div>
+            </div>
+  
+        </section>
+
+        <section id="portfolio" class="content-section" style="display: none;">
+            <h2>Portfolio</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Programming Related Projects</h3>
+                    <p>I worked as an Android & iOS developer in different companies</p>
+                </div>
+                <div class="card">
+                    <h3>IoT-based Predictive Analytics</h3>
+                    <p>Exploring machine learning applications in IoT.</p>
+                </div>
+                <div class="card">
+                    <h3>Scientific Journal Content Writing</h3>
+                    <p>Wrote research articles in various fields.</p>
+                </div>
+                <div class="card" id="card_last">
+                    <h3>Freelancing</h3>
+                    <p>Doing freelancing for more than 4 years</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="content-section" style="display: none;">
+            <h2>Our Services</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Programming</h3>
+                    <p>Custom web development, automation, and data science solutions.</p>
+                </div>
+                <div class="card">
+                    <h3>Article Writing</h3>
+                    <p>Well-researched, SEO-optimized, and engaging content.</p>
+                </div>
+                <div class="card">
+                    <h3>Plagiarism Removal</h3>
+                    <p>Professional rewriting and paraphrasing services.</p>
+                </div>
+                <div class="card"  id="card_last">
+                    <h3>Literature Review & Gap Analysis</h3>
+                    <p>Identifying key research gaps with deep analysis.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="content-section" style="display: none;">
+            <!-- <h2>Contact Us</h2>
+            <p>Email: myemail@example.com</p> -->
+            <!-- <p>LinkedIn: <a href="#">linkedin.com/in/myprofile</a></p>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form> -->
+            <div class="about-section">
+                <h1>About Us</h1>
+                <p>Welcome to our freelancing and research writing platform!</p>
+                <p> We specialize in delivering high-quality programming solutions, article writing, plagiarism removal, and literature review gap analysis. Our goal is to provide 100% original content, fast delivery, and affordable pricing while covering a wide range of subjects. Whether you need technical expertise or academic support, we are here to help you succeed!</p>
+            </div>
+            <p style="font-size: large;">- - - -</p>
+            <div class="grid">
+                <div class="card1" style="margin-bottom: 100px;">
+                    <img style="width: 100%;" src="./images/Muhammad Usman Business Card.png"/>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Freelance Portfolio</p>
+    </footer>
+</body>
+</html>
